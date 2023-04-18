@@ -1,0 +1,25 @@
+{
+  "name": "RMMobileSpec",
+  "version": "1.0.0",
+  "summary": "A short description of RMMobileSpec.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/16422230/RMMobileSpec",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "16422230": "liucong@streamax.com"
+  },
+  "source": {
+    "git": "https://github.com/16422230/RMMobileSpec.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "ios": {
+    "vendored_frameworks": "**/Libs/RMMobileSDK.framework"
+  },
+  "vendored_libraries": "**/Libs/*.a"
+}

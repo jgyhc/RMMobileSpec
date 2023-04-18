@@ -1,0 +1,6 @@
+framework module RMMobileSDK {
+  umbrella header "RMMobileSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module RMMobileSpec {
+  umbrella header "RMMobileSpec-umbrella.h"
+
+  export *
+  module * { export * }
+}
