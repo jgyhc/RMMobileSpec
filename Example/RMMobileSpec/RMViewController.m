@@ -7,7 +7,9 @@
 //
 
 #import "RMViewController.h"
-#import <RMMobileSDK/FXNetDevice.h>
+//#import <RMMobileSDK/FXNetDevice.h>
+#import <RMMobileSDK/RMMobileSDK.h>
+#import <RMMobileSDK/FXNetStream.h>
 
 @interface RMViewController ()
 
