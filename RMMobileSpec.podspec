@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RMMobileSpec'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '锐明移动端SDK'
 
 # This description is used to generate tags and improve search results.
@@ -28,11 +28,14 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/jgyhc/RMMobileSpec.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
 #  s.source_files = 'RMMobileSpec/Classes/**/*'
   s.ios.vendored_frameworks = "**/Libs/RMMobileSDK.framework"
   s.vendored_libraries = '**/Libs/*.a'
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.resource_bundles = {
   #   'RMMobileSpec' => ['RMMobileSpec/Assets/*.png']
   # }
