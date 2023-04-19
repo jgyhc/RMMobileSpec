@@ -1,5 +1,5 @@
 PODS:
-  - RMMobileSpec (1.0.0)
+  - RMMobileSpec (1.0.1)
 
 DEPENDENCIES:
   - RMMobileSpec (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RMMobileSpec: 86f865192a2888b50599e28179540f00161f17ac
+  RMMobileSpec: 6b3cf7c60fd08f72b8d8e100cc14891d1d97193b
 
 PODFILE CHECKSUM: ac5804f7ca8a38a09fefee0ea02a3804d3dc64a1
 

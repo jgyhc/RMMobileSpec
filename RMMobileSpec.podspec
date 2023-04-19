@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
 #  s.source_files = 'RMMobileSpec/Classes/**/*'
   s.ios.vendored_frameworks = "**/Libs/RMMobileSDK.framework"
-  s.vendored_libraries = '**/Libs/*.a'
+#  s.vendored_libraries = '**/Libs/*.a'
   
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
@@ -41,6 +41,7 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+#   s.frameworks = 'UIKit', 'Foundation', 'AVFoundation', 'MobileCoreServices', 'SystemConfiguration', 'CoreVideo', 'VideoToolbox'
+#   s.libraries = 'c++', 'z', 'bz2', 'iconv.2.4.0'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

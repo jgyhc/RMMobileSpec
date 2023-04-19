@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/RMMobileSDK.h</key>
 		<data>
-		kNx8Kp8C6+NsNTsK5/Gba+XVbgk=
+		s9DaPvmbZvMkzbPDVSIiVsc0wTY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -252,11 +252,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kNx8Kp8C6+NsNTsK5/Gba+XVbgk=
+			s9DaPvmbZvMkzbPDVSIiVsc0wTY=
 			</data>
 			<key>hash2</key>
 			<data>
-			k7iylwHa2jMBYzEi3XNVMySWgosUaagzKt3aQad5/Xg=
+			zrvi/OjV0tOHFoaLM3K+IH+IgL2LYh7ni6h+zbzmh8E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
